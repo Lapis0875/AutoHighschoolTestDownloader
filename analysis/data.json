@@ -1,0 +1,36 @@
+{
+  "국어": [
+    {
+      "시험": "2019년 4월 학평(경기)",
+      "문제_코드": "kor_mun_FRaqbC8w",
+      "문제_url": "http://wdown.ebsi.co.kr/W61001/01exam/20190410/go3/kor_mun_FRaqbC8w.pdf"
+    }
+  ],
+  "수학": [
+    {
+      "시험": "2020년 2021대수능 수학가형 홀수형",
+      "문제": {
+        "코드": "matha_mun_LOTW4UYI_1",
+        "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/go3/matha_mun_LOTW4UYI_1.pdf"
+      },
+      "정답": {
+        "코드": "",
+        "url": "http://www.ebsi.co.kr/ebs/xip/xipa/retrieveCorrectAnswerImagePop.ebs?imageSrc=http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png&subjectNm=2020%uB144%202021%20%uB300%uD559%uC218%uD559%uB2A5%uB825%uC2DC%uD5D8%20%uC218%uD559%uAC00%uD615%20%uD640%uC218%uD615",
+        "imageSrc": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png",
+        "subjectNm": "2020%uB144%202021%20%uB300%uD559%uC218%uD559%uB2A5%uB825%uC2DC%uD5D8%20%uC218%uD559%uAC00%uD615%20%uD640%uC218%uD615"
+      }
+    }
+  ],
+  "영어": [
+
+  ],
+  "한국사": [
+
+  ],
+  "물리학1": [
+
+  ],
+  "화학1": [
+
+  ]
+}
