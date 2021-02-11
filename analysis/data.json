@@ -1,36 +1,202 @@
 {
-  "국어": [
-    {
-      "시험": "2019년 4월 학평(경기)",
-      "문제_코드": "kor_mun_FRaqbC8w",
-      "문제_url": "http://wdown.ebsi.co.kr/W61001/01exam/20190410/go3/kor_mun_FRaqbC8w.pdf"
-    }
-  ],
-  "수학": [
-    {
-      "시험": "2020년 2021대수능 수학가형 홀수형",
-      "문제": {
-        "코드": "matha_mun_LOTW4UYI_1",
-        "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/go3/matha_mun_LOTW4UYI_1.pdf"
-      },
-      "정답": {
-        "코드": "",
-        "url": "http://www.ebsi.co.kr/ebs/xip/xipa/retrieveCorrectAnswerImagePop.ebs?imageSrc=http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png&subjectNm=2020%uB144%202021%20%uB300%uD559%uC218%uD559%uB2A5%uB825%uC2DC%uD5D8%20%uC218%uD559%uAC00%uD615%20%uD640%uC218%uD615",
-        "imageSrc": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png",
-        "subjectNm": "2020%uB144%202021%20%uB300%uD559%uC218%uD559%uB2A5%uB825%uC2DC%uD5D8%20%uC218%uD559%uAC00%uD615%20%uD640%uC218%uD615"
-      }
-    }
-  ],
-  "영어": [
-
-  ],
-  "한국사": [
-
-  ],
-  "물리학1": [
-
-  ],
-  "화학1": [
-
-  ]
+    "국어": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 국어 홀수형",
+            "유형": "홀수형",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/kor_mun_R624XS12.pdf",
+                    "code": "kor_mun_R624XS12"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_kor_ans_SG4U65KG.png",
+                    "code": "h3_m_kor_ans_SG4U65KG"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/kor_hsj_1CPB7Y97.pdf",
+                    "code": "kor_hsj_1CPB7Y97"
+                }
+            }
+        }
+    ],
+    "수학가형": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 수학가형 홀수형",
+            "유형": "홀수형",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/matha_mun_LOTW4UYI_1.pdf",
+                    "code": "matha_mun_LOTW4UYI_1"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png",
+                    "code": "h3_m_matha_ans_R121C296"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/matha_hsj_1LP8AOBL_3.pdf",
+                    "code": "matha_hsj_1LP8AOBL_3"
+                }
+            }
+        }
+    ],
+    "수학나형": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 수학나형 홀수형",
+            "유형": "홀수형",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/mathb_mun_2711196D.pdf",
+                    "code": "mathb_mun_2711196D"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_mathb_ans_I6Y5N321.png",
+                    "code": "h3_m_mathb_ans_I6Y5N321"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/mathb_hsj_N7254BR1_3.pdf",
+                    "code": "mathb_hsj_N7254BR1_3"
+                }
+            }
+        }
+    ],
+    "영어": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 영어 홀수형",
+            "유형": "홀수형",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/eng_mun_8JGC8T6P.pdf",
+                    "code": "eng_mun_8JGC8T6P"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_eng_ans_A2117MYA.png",
+                    "code": "h3_m_eng_ans_A2117MYA"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/eng_hsj_P1H5NJC3_3.pdf",
+                    "code": "eng_hsj_P1H5NJC3_3"
+                }
+            }
+        }
+    ],
+    "한국사": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 한국사 홀수형",
+            "유형": "홀수형",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_his_mun_769F47T4.pdf",
+                    "code": "s_his_mun_769F47T4"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_his_ans_VUI5582F.png",
+                    "code": "h3_m_s_his_ans_VUI5582F"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_his_hsj_MMB5369P.pdf",
+                    "code": "s_his_hsj_MMB5369P"
+                }
+            }
+        }
+    ],
+    "생활과윤리": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 생활과윤리",
+            "유형": "없음",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_ssnyr_mun_17OM3PI7.pdf",
+                    "code": "s_ssnyr_mun_17OM3PI7"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_ssnyr_ans_636NXQO9.png",
+                    "code": "h3_m_s_ssnyr_ans_636NXQO9"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_ssnyr_hsj_F5P7Y27Q.pdf",
+                    "code": "s_ssnyr_hsj_F5P7Y27Q"
+                }
+            }
+        }
+    ],
+    "윤리와사상": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 윤리와사상",
+            "유형": "없음",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_yrnss_mun_ZDSGTC12.pdf",
+                    "code": "s_yrnss_mun_ZDSGTC12"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_yrnss_ans_8F3GT55C.png",
+                    "code": "h3_m_s_yrnss_ans_8F3GT55C"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_yrnss_hsj_219C5826.pdf",
+                    "code": "s_yrnss_hsj_219C5826"
+                }
+            }
+        }
+    ],
+    "한국지리": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 한국지리",
+            "유형": "없음",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_hanji_mun_6379T27T.pdf",
+                    "code": "s_hanji_mun_6379T27T"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_hanji_ans_CB886H37.png",
+                    "code": "h3_m_s_hanji_ans_CB886H37"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_hanji_hsj_7VFB5H49.pdf",
+                    "code": "s_hanji_hsj_7VFB5H49"
+                }
+            }
+        }
+    ],
+    "세계지리": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 세계지리",
+            "유형": "없음",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_saeji_mun_8LG2IM6I_1.pdf",
+                    "code": "s_saeji_mun_8LG2IM6I_1"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_saeji_ans_81FAAH1Q.png",
+                    "code": "h3_m_s_saeji_ans_81FAAH1Q"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_saeji_hsj_9VB7R9RW.pdf",
+                    "code": "s_saeji_hsj_9VB7R9RW"
+                }
+            }
+        }
+    ],
+    "동아시아사": [
+        {
+            "시험": "2020년 2021 대학수학능력시험 동아시아사",
+            "유형": "없음",
+            "다운로드": {
+                "문제": {
+                    "url": "/20201203/go3/s_easta_mun_W2E91V2S.pdf",
+                    "code": "s_easta_mun_W2E91V2S"
+                },
+                "정답": {
+                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_easta_ans_48Y81X22.png",
+                    "code": "h3_m_s_easta_ans_48Y81X22"
+                },
+                "해설지": {
+                    "url": "/20201203/go3/s_easta_hsj_JV3J3A55.pdf",
+                    "code": "s_easta_hsj_JV3J3A55"
+                }
+            }
+        }
+    ]
 }
