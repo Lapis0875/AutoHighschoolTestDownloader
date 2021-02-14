@@ -129,7 +129,7 @@ function goDownLoadR(imgUrl, wl, irecord, catCd, arCnt, subjectId,isEvenNum,file
 }
 
 //대본
-function goDownLoadD(imgUrl, wl, irecord, catCd, arCnt, subjectId,isEvenNum,fileExt) {
+function goDownLoadD(imgUrl, wl, irecord, catCd, arCnt, subjectId, isEvenNum, fileExt) {
 
     var isPdf = 0;
     if(fileExt == 'pdf') isPdf = 1;

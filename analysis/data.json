@@ -1,202 +1,682 @@
 {
-    "국어": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 국어 홀수형",
-            "유형": "홀수형",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/kor_mun_R624XS12.pdf",
-                    "code": "kor_mun_R624XS12"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_kor_ans_SG4U65KG.png",
-                    "code": "h3_m_kor_ans_SG4U65KG"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/kor_hsj_1CPB7Y97.pdf",
-                    "code": "kor_hsj_1CPB7Y97"
-                }
-            }
+    "국어": {
+        "2020년 2021 대학수학능력시험 국어 홀수형": {
+            "url": "'/20201203/go3/kor_hsj_1CPB7Y97.pdf'",
+            "file": "kor_hsj_1CPB7Y97.pdf'",
+            "file_ext": "pdf'",
+            "code": "1CPB7Y97"
+        },
+        "2020년 2021 대학수학능력시험 국어 짝수형": {
+            "url": "'http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_kor_ans_AC4A4Z6M.png'",
+            "file": "h3_m_kor_ans_AC4A4Z6M.png'",
+            "file_ext": "png'",
+            "code": "AC4A4Z6M"
+        },
+        "2020년 고3 10월 학평(서울) 국어": {
+            "url": "'/20201027/go3/kor_hsj_1CPB7Y97.pdf'",
+            "file": "kor_hsj_1CPB7Y97.pdf'",
+            "file_ext": "pdf'",
+            "code": "1CPB7Y97"
+        },
+        "2020년 고3 9월 모평(평가원) 국어": {
+            "url": "'/20200916/go3/kor_hsj_N7RGA1D7.pdf'",
+            "file": "kor_hsj_N7RGA1D7.pdf'",
+            "file_ext": "pdf'",
+            "code": "N7RGA1D7"
         }
-    ],
-    "수학가형": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 수학가형 홀수형",
-            "유형": "홀수형",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/matha_mun_LOTW4UYI_1.pdf",
-                    "code": "matha_mun_LOTW4UYI_1"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_R121C296.png",
-                    "code": "h3_m_matha_ans_R121C296"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/matha_hsj_1LP8AOBL_3.pdf",
-                    "code": "matha_hsj_1LP8AOBL_3"
-                }
-            }
+    },
+    "수학가형": {
+        "2020년 2021 대학수학능력시험 수학가형 홀수형": {
+            "url": "'/20201203/go3/matha_hsj_1LP8AOBL_3.pdf'",
+            "file": "matha_hsj_1LP8AOBL_3.pdf'",
+            "file_ext": "pdf'",
+            "code": "3"
+        },
+        "2020년 2021 대학수학능력시험 수학가형 짝수형": {
+            "url": "'http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_matha_ans_1QAA8XR6.png'",
+            "file": "h3_m_matha_ans_1QAA8XR6.png'",
+            "file_ext": "png'",
+            "code": "1QAA8XR6"
         }
-    ],
-    "수학나형": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 수학나형 홀수형",
-            "유형": "홀수형",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/mathb_mun_2711196D.pdf",
-                    "code": "mathb_mun_2711196D"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_mathb_ans_I6Y5N321.png",
-                    "code": "h3_m_mathb_ans_I6Y5N321"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/mathb_hsj_N7254BR1_3.pdf",
-                    "code": "mathb_hsj_N7254BR1_3"
-                }
-            }
+    },
+    "수학나형": {
+        "2020년 2021 대학수학능력시험 수학나형 홀수형": {
+            "url": "'/20201203/go3/mathb_hsj_N7254BR1_3.pdf'",
+            "file": "mathb_hsj_N7254BR1_3.pdf'",
+            "file_ext": "pdf'",
+            "code": "3"
+        },
+        "2020년 2021 대학수학능력시험 수학나형 짝수형": {
+            "url": "'http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_mathb_ans_274OX6KJ.png'",
+            "file": "h3_m_mathb_ans_274OX6KJ.png'",
+            "file_ext": "png'",
+            "code": "274OX6KJ"
         }
-    ],
-    "영어": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 영어 홀수형",
-            "유형": "홀수형",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/eng_mun_8JGC8T6P.pdf",
-                    "code": "eng_mun_8JGC8T6P"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_eng_ans_A2117MYA.png",
-                    "code": "h3_m_eng_ans_A2117MYA"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/eng_hsj_P1H5NJC3_3.pdf",
-                    "code": "eng_hsj_P1H5NJC3_3"
-                }
-            }
+    },
+    "영어": {
+        "2020년 2021 대학수학능력시험 영어 홀수형": {
+            "url": "'/20201203/go3/eng_mp3_Z925M282.zip'",
+            "file": "eng_mp3_Z925M282.zip'",
+            "file_ext": "zip'",
+            "code": "Z925M282"
+        },
+        "2020년 2021 대학수학능력시험 영어 짝수형": {
+            "url": "'http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_eng_ans_3W577MR5_1.png'",
+            "file": "h3_m_eng_ans_3W577MR5_1.png'",
+            "file_ext": "png'",
+            "code": "1"
+        },
+        "2020년 고3 10월 학평(서울) 영어": {
+            "url": "'/20201027/go3/eng_scr_IH3WL487.pdf'",
+            "file": "eng_scr_IH3WL487.pdf'",
+            "file_ext": "pdf'",
+            "code": "IH3WL487"
+        },
+        "2020년 고3 9월 모평(평가원) 영어": {
+            "url": "'/20200916/go3/eng_scr_YI8Q9896.pdf'",
+            "file": "eng_scr_YI8Q9896.pdf'",
+            "file_ext": "pdf'",
+            "code": "YI8Q9896"
         }
-    ],
-    "한국사": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 한국사 홀수형",
-            "유형": "홀수형",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_his_mun_769F47T4.pdf",
-                    "code": "s_his_mun_769F47T4"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_his_ans_VUI5582F.png",
-                    "code": "h3_m_s_his_ans_VUI5582F"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_his_hsj_MMB5369P.pdf",
-                    "code": "s_his_hsj_MMB5369P"
-                }
-            }
+    },
+    "한국사": {
+        "2020년 2021 대학수학능력시험 한국사 홀수형": {
+            "url": "'/20201203/go3/s_his_hsj_MMB5369P.pdf'",
+            "file": "s_his_hsj_MMB5369P.pdf'",
+            "file_ext": "pdf'",
+            "code": "MMB5369P"
+        },
+        "2020년 2021 대학수학능력시험 한국사 짝수형": {
+            "url": "'http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_his_ans_GD8FB78L.png'",
+            "file": "h3_m_s_his_ans_GD8FB78L.png'",
+            "file_ext": "png'",
+            "code": "GD8FB78L"
+        },
+        "2020년 고3 10월 학평(서울) 한국사": {
+            "url": "'/20201027/go3/s_his_hsj_N7254BR1.pdf'",
+            "file": "s_his_hsj_N7254BR1.pdf'",
+            "file_ext": "pdf'",
+            "code": "N7254BR1"
+        },
+        "2020년 고3 9월 모평(평가원) 한국사": {
+            "url": "'/20200916/go3/s_his_hsj_78F7Z6SV.pdf'",
+            "file": "s_his_hsj_78F7Z6SV.pdf'",
+            "file_ext": "pdf'",
+            "code": "78F7Z6SV"
         }
-    ],
-    "생활과윤리": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 생활과윤리",
-            "유형": "없음",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_ssnyr_mun_17OM3PI7.pdf",
-                    "code": "s_ssnyr_mun_17OM3PI7"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_ssnyr_ans_636NXQO9.png",
-                    "code": "h3_m_s_ssnyr_ans_636NXQO9"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_ssnyr_hsj_F5P7Y27Q.pdf",
-                    "code": "s_ssnyr_hsj_F5P7Y27Q"
-                }
-            }
+    },
+    "생활과윤리": {
+        "2020년 2021 대학수학능력시험 생활과윤리": {
+            "url": "'/20201203/go3/s_ssnyr_hsj_F5P7Y27Q.pdf'",
+            "file": "s_ssnyr_hsj_F5P7Y27Q.pdf'",
+            "file_ext": "pdf'",
+            "code": "F5P7Y27Q"
+        },
+        "2020년 고3 10월 학평(서울) 생활과윤리": {
+            "url": "'/20201027/go3/s_ssnyr_hsj_FXSIZNN7.pdf'",
+            "file": "s_ssnyr_hsj_FXSIZNN7.pdf'",
+            "file_ext": "pdf'",
+            "code": "FXSIZNN7"
+        },
+        "2020년 고3 9월 모평(평가원) 생활과윤리": {
+            "url": "'/20200916/go3/s_ssnyr_hsj_39V6WUZZ.pdf'",
+            "file": "s_ssnyr_hsj_39V6WUZZ.pdf'",
+            "file_ext": "pdf'",
+            "code": "39V6WUZZ"
         }
-    ],
-    "윤리와사상": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 윤리와사상",
-            "유형": "없음",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_yrnss_mun_ZDSGTC12.pdf",
-                    "code": "s_yrnss_mun_ZDSGTC12"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_yrnss_ans_8F3GT55C.png",
-                    "code": "h3_m_s_yrnss_ans_8F3GT55C"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_yrnss_hsj_219C5826.pdf",
-                    "code": "s_yrnss_hsj_219C5826"
-                }
-            }
+    },
+    "윤리와사상": {
+        "2020년 2021 대학수학능력시험 윤리와사상": {
+            "url": "'/20201203/go3/s_yrnss_hsj_219C5826.pdf'",
+            "file": "s_yrnss_hsj_219C5826.pdf'",
+            "file_ext": "pdf'",
+            "code": "219C5826"
+        },
+        "2020년 고3 10월 학평(서울) 윤리와사상": {
+            "url": "'/20201027/go3/s_yrnss_hsj_S8111121.pdf'",
+            "file": "s_yrnss_hsj_S8111121.pdf'",
+            "file_ext": "pdf'",
+            "code": "S8111121"
+        },
+        "2020년 고3 9월 모평(평가원) 윤리와사상": {
+            "url": "'/20200916/go3/s_yrnss_hsj_O7A7554E.pdf'",
+            "file": "s_yrnss_hsj_O7A7554E.pdf'",
+            "file_ext": "pdf'",
+            "code": "O7A7554E"
         }
-    ],
-    "한국지리": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 한국지리",
-            "유형": "없음",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_hanji_mun_6379T27T.pdf",
-                    "code": "s_hanji_mun_6379T27T"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_hanji_ans_CB886H37.png",
-                    "code": "h3_m_s_hanji_ans_CB886H37"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_hanji_hsj_7VFB5H49.pdf",
-                    "code": "s_hanji_hsj_7VFB5H49"
-                }
-            }
+    },
+    "한국지리": {
+        "2020년 2021 대학수학능력시험 한국지리": {
+            "url": "'/20201203/go3/s_hanji_hsj_7VFB5H49.pdf'",
+            "file": "s_hanji_hsj_7VFB5H49.pdf'",
+            "file_ext": "pdf'",
+            "code": "7VFB5H49"
+        },
+        "2020년 고3 10월 학평(서울) 한국지리": {
+            "url": "'/20201027/go3/s_hanji_hsj_9O9A623K.pdf'",
+            "file": "s_hanji_hsj_9O9A623K.pdf'",
+            "file_ext": "pdf'",
+            "code": "9O9A623K"
+        },
+        "2020년 고3 9월 모평(평가원) 한국지리": {
+            "url": "'/20200916/go3/s_hanji_hsj_1593CA7Q.pdf'",
+            "file": "s_hanji_hsj_1593CA7Q.pdf'",
+            "file_ext": "pdf'",
+            "code": "1593CA7Q"
         }
-    ],
-    "세계지리": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 세계지리",
-            "유형": "없음",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_saeji_mun_8LG2IM6I_1.pdf",
-                    "code": "s_saeji_mun_8LG2IM6I_1"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_saeji_ans_81FAAH1Q.png",
-                    "code": "h3_m_s_saeji_ans_81FAAH1Q"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_saeji_hsj_9VB7R9RW.pdf",
-                    "code": "s_saeji_hsj_9VB7R9RW"
-                }
-            }
+    },
+    "세계지리": {
+        "2020년 2021 대학수학능력시험 세계지리": {
+            "url": "'/20201203/go3/s_saeji_hsj_9VB7R9RW.pdf'",
+            "file": "s_saeji_hsj_9VB7R9RW.pdf'",
+            "file_ext": "pdf'",
+            "code": "9VB7R9RW"
+        },
+        "2020년 고3 10월 학평(서울) 세계지리": {
+            "url": "'/20201027/go3/s_saeji_hsj_28M85SA5.pdf'",
+            "file": "s_saeji_hsj_28M85SA5.pdf'",
+            "file_ext": "pdf'",
+            "code": "28M85SA5"
+        },
+        "2020년 고3 9월 모평(평가원) 세계지리": {
+            "url": "'/20200916/go3/s_saeji_hsj_58RPWVK1_1.pdf'",
+            "file": "s_saeji_hsj_58RPWVK1_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
         }
-    ],
-    "동아시아사": [
-        {
-            "시험": "2020년 2021 대학수학능력시험 동아시아사",
-            "유형": "없음",
-            "다운로드": {
-                "문제": {
-                    "url": "/20201203/go3/s_easta_mun_W2E91V2S.pdf",
-                    "code": "s_easta_mun_W2E91V2S"
-                },
-                "정답": {
-                    "url": "http://wdown.ebsi.co.kr/W61001/01exam/20201203/mobile/h3_m_s_easta_ans_48Y81X22.png",
-                    "code": "h3_m_s_easta_ans_48Y81X22"
-                },
-                "해설지": {
-                    "url": "/20201203/go3/s_easta_hsj_JV3J3A55.pdf",
-                    "code": "s_easta_hsj_JV3J3A55"
-                }
-            }
+    },
+    "동아시아사": {
+        "2020년 2021 대학수학능력시험 동아시아사": {
+            "url": "'/20201203/go3/s_easta_hsj_JV3J3A55.pdf'",
+            "file": "s_easta_hsj_JV3J3A55.pdf'",
+            "file_ext": "pdf'",
+            "code": "JV3J3A55"
+        },
+        "2020년 고3 10월 학평(서울) 동아시아사": {
+            "url": "'/20201027/go3/s_easta_hsj_E7C31686.pdf'",
+            "file": "s_easta_hsj_E7C31686.pdf'",
+            "file_ext": "pdf'",
+            "code": "E7C31686"
+        },
+        "2020년 고3 9월 모평(평가원) 동아시아사": {
+            "url": "'/20200916/go3/s_easta_hsj_A4D317Y1.pdf'",
+            "file": "s_easta_hsj_A4D317Y1.pdf'",
+            "file_ext": "pdf'",
+            "code": "A4D317Y1"
         }
-    ]
+    },
+    "세계사": {
+        "2020년 2021 대학수학능력시험 세계사": {
+            "url": "'/20201203/go3/s_sks_hsj_OT1ZN175.pdf'",
+            "file": "s_sks_hsj_OT1ZN175.pdf'",
+            "file_ext": "pdf'",
+            "code": "OT1ZN175"
+        },
+        "2020년 고3 10월 학평(서울) 세계사": {
+            "url": "'/20201027/go3/s_sks_hsj_C6WWC9K4.pdf'",
+            "file": "s_sks_hsj_C6WWC9K4.pdf'",
+            "file_ext": "pdf'",
+            "code": "C6WWC9K4"
+        },
+        "2020년 고3 9월 모평(평가원) 세계사": {
+            "url": "'/20200916/go3/s_sks_hsj_24NV851A.pdf'",
+            "file": "s_sks_hsj_24NV851A.pdf'",
+            "file_ext": "pdf'",
+            "code": "24NV851A"
+        }
+    },
+    "법": {
+        "2020년 2021 대학수학능력시험 정치와 법": {
+            "url": "'/20201203/go3/s_bnj_hsj_11SGE54S.pdf'",
+            "file": "s_bnj_hsj_11SGE54S.pdf'",
+            "file_ext": "pdf'",
+            "code": "11SGE54S"
+        },
+        "2020년 고3 10월 학평(서울) 정치와 법": {
+            "url": "'/20201027/go3/s_bnj_hsj_6W4P73V9.pdf'",
+            "file": "s_bnj_hsj_6W4P73V9.pdf'",
+            "file_ext": "pdf'",
+            "code": "6W4P73V9"
+        },
+        "2020년 고3 9월 모평(평가원) 정치와 법": {
+            "url": "'/20200916/go3/s_bnj_hsj_3C1E43NR_1.pdf'",
+            "file": "s_bnj_hsj_3C1E43NR_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
+        }
+    },
+    "경제": {
+        "2020년 2021 대학수학능력시험 경제": {
+            "url": "'/20201203/go3/s_eco_hsj_H82DNDVE.pdf'",
+            "file": "s_eco_hsj_H82DNDVE.pdf'",
+            "file_ext": "pdf'",
+            "code": "H82DNDVE"
+        },
+        "2020년 2021 대학수학능력시험 상업 경제": {
+            "url": "'/20201203/go3/J_sangup_hsj_W5M1YJ93.pdf'",
+            "file": "J_sangup_hsj_W5M1YJ93.pdf'",
+            "file_ext": "pdf'",
+            "code": "W5M1YJ93"
+        },
+        "2020년 고3 10월 학평(서울) 경제": {
+            "url": "'/20201027/go3/s_eco_hsj_QP911PM1.pdf'",
+            "file": "s_eco_hsj_QP911PM1.pdf'",
+            "file_ext": "pdf'",
+            "code": "QP911PM1"
+        },
+        "2020년 고3 10월 학평(서울) 상업 경제": {
+            "url": "'/20201027/go3/J_sangup_hsj_E3P36RYJ.pdf'",
+            "file": "J_sangup_hsj_E3P36RYJ.pdf'",
+            "file_ext": "pdf'",
+            "code": "E3P36RYJ"
+        },
+        "2020년 고3 9월 모평(평가원) 경제": {
+            "url": "'/20200916/go3/s_eco_hsj_Z19TM959.pdf'",
+            "file": "s_eco_hsj_Z19TM959.pdf'",
+            "file_ext": "pdf'",
+            "code": "Z19TM959"
+        }
+    },
+    "사회·문화": {
+        "2020년 2021 대학수학능력시험 사회·문화": {
+            "url": "'/20201203/go3/s_samun_hsj_VS6AWEZF.pdf'",
+            "file": "s_samun_hsj_VS6AWEZF.pdf'",
+            "file_ext": "pdf'",
+            "code": "VS6AWEZF"
+        },
+        "2020년 고3 10월 학평(서울) 사회·문화": {
+            "url": "'/20201027/go3/s_samun_hsj_P1H4C692.pdf'",
+            "file": "s_samun_hsj_P1H4C692.pdf'",
+            "file_ext": "pdf'",
+            "code": "P1H4C692"
+        },
+        "2020년 고3 9월 모평(평가원) 사회·문화": {
+            "url": "'/20200916/go3/s_samun_hsj_CV9V8AJY.pdf'",
+            "file": "s_samun_hsj_CV9V8AJY.pdf'",
+            "file_ext": "pdf'",
+            "code": "CV9V8AJY"
+        }
+    },
+    "물리학Ⅰ": {
+        "2020년 2021 대학수학능력시험 물리학Ⅰ": {
+            "url": "'/20201203/go3/g_phy1_hsj_I7J7WGT3.pdf'",
+            "file": "g_phy1_hsj_I7J7WGT3.pdf'",
+            "file_ext": "pdf'",
+            "code": "I7J7WGT3"
+        },
+        "2020년 고3 10월 학평(서울) 물리학Ⅰ": {
+            "url": "'/20201027/go3/g_phy1_hsj_BPJ88366.pdf'",
+            "file": "g_phy1_hsj_BPJ88366.pdf'",
+            "file_ext": "pdf'",
+            "code": "BPJ88366"
+        },
+        "2020년 고3 9월 모평(평가원) 물리학Ⅰ": {
+            "url": "'/20200916/go3/g_phy1_hsj_ORXY983T.pdf'",
+            "file": "g_phy1_hsj_ORXY983T.pdf'",
+            "file_ext": "pdf'",
+            "code": "ORXY983T"
+        }
+    },
+    "물리학Ⅱ": {
+        "2020년 2021 대학수학능력시험 물리학Ⅱ": {
+            "url": "'/20201203/go3/g_phy2_hsj_Z96Z4KI8.pdf'",
+            "file": "g_phy2_hsj_Z96Z4KI8.pdf'",
+            "file_ext": "pdf'",
+            "code": "Z96Z4KI8"
+        },
+        "2020년 고3 10월 학평(서울) 물리학Ⅱ": {
+            "url": "'/20201027/go3/g_phy2_hsj_DS9283VN.pdf'",
+            "file": "g_phy2_hsj_DS9283VN.pdf'",
+            "file_ext": "pdf'",
+            "code": "DS9283VN"
+        }
+    },
+    "화학Ⅰ": {
+        "2020년 2021 대학수학능력시험 화학Ⅰ": {
+            "url": "'/20201203/go3/g_che1_hsj_I3HF54XN.pdf'",
+            "file": "g_che1_hsj_I3HF54XN.pdf'",
+            "file_ext": "pdf'",
+            "code": "I3HF54XN"
+        },
+        "2020년 고3 10월 학평(서울) 화학Ⅰ": {
+            "url": "'/20201027/go3/g_che1_hsj_75TP85NB.pdf'",
+            "file": "g_che1_hsj_75TP85NB.pdf'",
+            "file_ext": "pdf'",
+            "code": "75TP85NB"
+        }
+    },
+    "화학Ⅱ": {
+        "2020년 2021 대학수학능력시험 화학Ⅱ": {
+            "url": "'/20201203/go3/g_che2_hsj_7NMZ1A4X.pdf'",
+            "file": "g_che2_hsj_7NMZ1A4X.pdf'",
+            "file_ext": "pdf'",
+            "code": "7NMZ1A4X"
+        },
+        "2020년 고3 10월 학평(서울) 화학Ⅱ": {
+            "url": "'/20201027/go3/g_che2_hsj_FH6D3YNM.pdf'",
+            "file": "g_che2_hsj_FH6D3YNM.pdf'",
+            "file_ext": "pdf'",
+            "code": "FH6D3YNM"
+        }
+    },
+    "생명과학Ⅰ": {
+        "2020년 2021 대학수학능력시험 생명과학Ⅰ": {
+            "url": "'/20201203/go3/g_bio1_hsj_2GGY4PA2_1.pdf'",
+            "file": "g_bio1_hsj_2GGY4PA2_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
+        },
+        "2020년 고3 10월 학평(서울) 생명과학Ⅰ": {
+            "url": "'/20201027/go3/g_bio1_hsj_P38AJ3R1.pdf'",
+            "file": "g_bio1_hsj_P38AJ3R1.pdf'",
+            "file_ext": "pdf'",
+            "code": "P38AJ3R1"
+        }
+    },
+    "생명과학Ⅱ": {
+        "2020년 2021 대학수학능력시험 생명과학Ⅱ": {
+            "url": "'/20201203/go3/g_bio2_hsj_91876MPU.pdf'",
+            "file": "g_bio2_hsj_91876MPU.pdf'",
+            "file_ext": "pdf'",
+            "code": "91876MPU"
+        },
+        "2020년 고3 10월 학평(서울) 생명과학Ⅱ": {
+            "url": "'/20201027/go3/g_bio2_hsj_98744419.pdf'",
+            "file": "g_bio2_hsj_98744419.pdf'",
+            "file_ext": "pdf'",
+            "code": "98744419"
+        }
+    },
+    "지구과학Ⅰ": {
+        "2020년 2021 대학수학능력시험 지구과학Ⅰ": {
+            "url": "'/20201203/go3/g_ear1_hsj_2C441P31.pdf'",
+            "file": "g_ear1_hsj_2C441P31.pdf'",
+            "file_ext": "pdf'",
+            "code": "2C441P31"
+        },
+        "2020년 고3 10월 학평(서울) 지구과학Ⅰ": {
+            "url": "'/20201027/go3/g_ear1_hsj_9R1QFLS9.pdf'",
+            "file": "g_ear1_hsj_9R1QFLS9.pdf'",
+            "file_ext": "pdf'",
+            "code": "9R1QFLS9"
+        }
+    },
+    "지구과학Ⅱ": {
+        "2020년 2021 대학수학능력시험 지구과학Ⅱ": {
+            "url": "'/20201203/go3/g_ear2_hsj_61N181Z1.pdf'",
+            "file": "g_ear2_hsj_61N181Z1.pdf'",
+            "file_ext": "pdf'",
+            "code": "61N181Z1"
+        },
+        "2020년 고3 10월 학평(서울) 지구과학Ⅱ": {
+            "url": "'/20201027/go3/g_ear2_hsj_A196W65O.pdf'",
+            "file": "g_ear2_hsj_A196W65O.pdf'",
+            "file_ext": "pdf'",
+            "code": "A196W65O"
+        }
+    },
+    "이해": {
+        "2020년 2021 대학수학능력시험 농업 이해": {
+            "url": "'/20201203/go3/J_nup_hsj_393I4ISJ.pdf'",
+            "file": "J_nup_hsj_393I4ISJ.pdf'",
+            "file_ext": "pdf'",
+            "code": "393I4ISJ"
+        },
+        "2020년 2021 대학수학능력시험 해양의 이해": {
+            "url": "'/20201203/go3/J_hae_hsj_PH3S7371.pdf'",
+            "file": "J_hae_hsj_PH3S7371.pdf'",
+            "file_ext": "pdf'",
+            "code": "PH3S7371"
+        },
+        "2020년 2021 대학수학능력시험 생활 서비스 산업의 이해": {
+            "url": "'/20201203/go3/J_ser_hsj_J1W4KIV8.pdf'",
+            "file": "J_ser_hsj_J1W4KIV8.pdf'",
+            "file_ext": "pdf'",
+            "code": "J1W4KIV8"
+        },
+        "2020년 고3 10월 학평(서울) 농업 이해": {
+            "url": "'/20201027/go3/J_nup_hsj_9SSW792A.pdf'",
+            "file": "J_nup_hsj_9SSW792A.pdf'",
+            "file_ext": "pdf'",
+            "code": "9SSW792A"
+        },
+        "2020년 고3 10월 학평(서울) 해양의 이해": {
+            "url": "'/20201027/go3/J_hae_hsj_2PUG3WYQ.pdf'",
+            "file": "J_hae_hsj_2PUG3WYQ.pdf'",
+            "file_ext": "pdf'",
+            "code": "2PUG3WYQ"
+        },
+        "2020년 고3 10월 학평(서울) 생활 서비스 산업의 이해": {
+            "url": "'/20201027/go3/J_ser_hsj_P3J24AS5.pdf'",
+            "file": "J_ser_hsj_P3J24AS5.pdf'",
+            "file_ext": "pdf'",
+            "code": "P3J24AS5"
+        }
+    },
+    "기술": {
+        "2020년 2021 대학수학능력시험 농업 기초 기술": {
+            "url": "'/20201203/go3/J_nupgi_hsj_1X5471AX.pdf'",
+            "file": "J_nupgi_hsj_1X5471AX.pdf'",
+            "file_ext": "pdf'",
+            "code": "1X5471AX"
+        },
+        "2020년 고3 10월 학평(서울) 농업 기초 기술": {
+            "url": "'/20201027/go3/J_nupgi_hsj_97KQ23NS.pdf'",
+            "file": "J_nupgi_hsj_97KQ23NS.pdf'",
+            "file_ext": "pdf'",
+            "code": "97KQ23NS"
+        }
+    },
+    "일반": {
+        "2020년 2021 대학수학능력시험 공업 일반": {
+            "url": "'/20201203/go3/J_gup_hsj_T97S2NE6.pdf'",
+            "file": "J_gup_hsj_T97S2NE6.pdf'",
+            "file_ext": "pdf'",
+            "code": "T97S2NE6"
+        },
+        "2020년 고3 10월 학평(서울) 공업 일반": {
+            "url": "'/20201027/go3/J_gup_hsj_RY433HD3.pdf'",
+            "file": "J_gup_hsj_RY433HD3.pdf'",
+            "file_ext": "pdf'",
+            "code": "RY433HD3"
+        }
+    },
+    "제도": {
+        "2020년 2021 대학수학능력시험 기초 제도": {
+            "url": "'/20201203/go3/J_kicho_hsj_J2IBSQG5.pdf'",
+            "file": "J_kicho_hsj_J2IBSQG5.pdf'",
+            "file_ext": "pdf'",
+            "code": "J2IBSQG5"
+        },
+        "2020년 고3 10월 학평(서울) 기초 제도": {
+            "url": "'/20201027/go3/J_kicho_hsj_7U831OT8.pdf'",
+            "file": "J_kicho_hsj_7U831OT8.pdf'",
+            "file_ext": "pdf'",
+            "code": "7U831OT8"
+        }
+    },
+    "원리": {
+        "2020년 2021 대학수학능력시험 회계 원리": {
+            "url": "'/20201203/go3/J_one_hsj_H69E7TFH.pdf'",
+            "file": "J_one_hsj_H69E7TFH.pdf'",
+            "file_ext": "pdf'",
+            "code": "H69E7TFH"
+        },
+        "2020년 고3 10월 학평(서울) 회계 원리": {
+            "url": "'/20201027/go3/J_one_hsj_FR8I54X2.pdf'",
+            "file": "J_one_hsj_FR8I54X2.pdf'",
+            "file_ext": "pdf'",
+            "code": "FR8I54X2"
+        }
+    },
+    "기초": {
+        "2020년 2021 대학수학능력시험 수산·해운 산업 기초": {
+            "url": "'/20201203/go3/J_susan_hsj_MPXR5395.pdf'",
+            "file": "J_susan_hsj_MPXR5395.pdf'",
+            "file_ext": "pdf'",
+            "code": "MPXR5395"
+        },
+        "2020년 고3 10월 학평(서울) 수산·해운 산업 기초": {
+            "url": "'/20201027/go3/J_susan_hsj_F9Q39Y56.pdf'",
+            "file": "J_susan_hsj_F9Q39Y56.pdf'",
+            "file_ext": "pdf'",
+            "code": "F9Q39Y56"
+        }
+    },
+    "발달": {
+        "2020년 2021 대학수학능력시험 인간 발달": {
+            "url": "'/20201203/go3/J_inkan_hsj_9Q4TED7V.pdf'",
+            "file": "J_inkan_hsj_9Q4TED7V.pdf'",
+            "file_ext": "pdf'",
+            "code": "9Q4TED7V"
+        },
+        "2020년 고3 10월 학평(서울) 인간 발달": {
+            "url": "'/20201027/go3/J_inkan_hsj_MQ89739S.pdf'",
+            "file": "J_inkan_hsj_MQ89739S.pdf'",
+            "file_ext": "pdf'",
+            "code": "MQ89739S"
+        }
+    },
+    "독일어Ⅰ": {
+        "2020년 2021 대학수학능력시험 독일어Ⅰ": {
+            "url": "'/20201203/go3/2nd_gr_hsj_59SI32G6.pdf'",
+            "file": "2nd_gr_hsj_59SI32G6.pdf'",
+            "file_ext": "pdf'",
+            "code": "59SI32G6"
+        },
+        "2020년 고3 10월 학평(서울) 독일어Ⅰ": {
+            "url": "'/20201027/go3/2nd_gr_hsj_O8F125I6.pdf'",
+            "file": "2nd_gr_hsj_O8F125I6.pdf'",
+            "file_ext": "pdf'",
+            "code": "O8F125I6"
+        }
+    },
+    "프랑스어Ⅰ": {
+        "2020년 2021 대학수학능력시험 프랑스어Ⅰ": {
+            "url": "'/20201203/go3/2nd_fr_hsj_D2ZAB386.pdf'",
+            "file": "2nd_fr_hsj_D2ZAB386.pdf'",
+            "file_ext": "pdf'",
+            "code": "D2ZAB386"
+        },
+        "2020년 고3 10월 학평(서울) 프랑스어Ⅰ": {
+            "url": "'/20201027/go3/2nd_fr_hsj_3535A663.pdf'",
+            "file": "2nd_fr_hsj_3535A663.pdf'",
+            "file_ext": "pdf'",
+            "code": "3535A663"
+        }
+    },
+    "스페인어Ⅰ": {
+        "2020년 2021 대학수학능력시험 스페인어Ⅰ": {
+            "url": "'/20201203/go3/2nd_sp_hsj_O6QGJ41M.pdf'",
+            "file": "2nd_sp_hsj_O6QGJ41M.pdf'",
+            "file_ext": "pdf'",
+            "code": "O6QGJ41M"
+        },
+        "2020년 고3 10월 학평(서울) 스페인어Ⅰ": {
+            "url": "'/20201027/go3/2nd_sp_hsj_K356XP48.pdf'",
+            "file": "2nd_sp_hsj_K356XP48.pdf'",
+            "file_ext": "pdf'",
+            "code": "K356XP48"
+        }
+    },
+    "중국어Ⅰ": {
+        "2020년 2021 대학수학능력시험 중국어Ⅰ": {
+            "url": "'/20201203/go3/2nd_ch_hsj_3DH59S9Z.pdf'",
+            "file": "2nd_ch_hsj_3DH59S9Z.pdf'",
+            "file_ext": "pdf'",
+            "code": "3DH59S9Z"
+        },
+        "2020년 고3 10월 학평(서울) 중국어Ⅰ": {
+            "url": "'/20201027/go3/2nd_ch_hsj_87H8J32H.pdf'",
+            "file": "2nd_ch_hsj_87H8J32H.pdf'",
+            "file_ext": "pdf'",
+            "code": "87H8J32H"
+        }
+    },
+    "일본어Ⅰ": {
+        "2020년 2021 대학수학능력시험 일본어Ⅰ": {
+            "url": "'/20201203/go3/2nd_ja_hsj_U8HZ4MMT.pdf'",
+            "file": "2nd_ja_hsj_U8HZ4MMT.pdf'",
+            "file_ext": "pdf'",
+            "code": "U8HZ4MMT"
+        },
+        "2020년 고3 10월 학평(서울) 일본어Ⅰ": {
+            "url": "'/20201027/go3/2nd_ja_hsj_542E6L4Z.pdf'",
+            "file": "2nd_ja_hsj_542E6L4Z.pdf'",
+            "file_ext": "pdf'",
+            "code": "542E6L4Z"
+        }
+    },
+    "러시아어Ⅰ": {
+        "2020년 2021 대학수학능력시험 러시아어Ⅰ": {
+            "url": "'/20201203/go3/2nd_ru_hsj_59193NQ3.pdf'",
+            "file": "2nd_ru_hsj_59193NQ3.pdf'",
+            "file_ext": "pdf'",
+            "code": "59193NQ3"
+        },
+        "2020년 고3 10월 학평(서울) 러시아어Ⅰ": {
+            "url": "'/20201027/go3/2nd_ru_hsj_33H111AA.pdf'",
+            "file": "2nd_ru_hsj_33H111AA.pdf'",
+            "file_ext": "pdf'",
+            "code": "33H111AA"
+        }
+    },
+    "아랍어Ⅰ": {
+        "2020년 2021 대학수학능력시험 아랍어Ⅰ": {
+            "url": "'/20201203/go3/2nd_ar_hsj_W1HX5A6P.pdf'",
+            "file": "2nd_ar_hsj_W1HX5A6P.pdf'",
+            "file_ext": "pdf'",
+            "code": "W1HX5A6P"
+        }
+    },
+    "베트남어Ⅰ": {
+        "2020년 2021 대학수학능력시험 베트남어Ⅰ": {
+            "url": "'/20201203/go3/2nd_vit_hsj_GAI6966I.pdf'",
+            "file": "2nd_vit_hsj_GAI6966I.pdf'",
+            "file_ext": "pdf'",
+            "code": "GAI6966I"
+        }
+    },
+    "한문Ⅰ": {
+        "2020년 2021 대학수학능력시험 한문Ⅰ": {
+            "url": "'/20201203/go3/2nd_han_hsj_4E1T221Y.pdf'",
+            "file": "2nd_han_hsj_4E1T221Y.pdf'",
+            "file_ext": "pdf'",
+            "code": "4E1T221Y"
+        },
+        "2020년 고3 10월 학평(서울) 한문Ⅰ": {
+            "url": "'/20201027/go3/2nd_han_hsj_53J26CNC.pdf'",
+            "file": "2nd_han_hsj_53J26CNC.pdf'",
+            "file_ext": "pdf'",
+            "code": "53J26CNC"
+        }
+    },
+    "학평(서울)": {
+        "2020년 고3 10월 학평(서울) 수학가형": {
+            "url": "'/20201027/go3/matha_hsj_3C3YZVGU.pdf'",
+            "file": "matha_hsj_3C3YZVGU.pdf'",
+            "file_ext": "pdf'",
+            "code": "3C3YZVGU"
+        },
+        "2020년 고3 10월 학평(서울) 수학나형": {
+            "url": "'/20201027/go3/mathb_hsj_1LP8AOBL_1.pdf'",
+            "file": "mathb_hsj_1LP8AOBL_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
+        }
+    },
+    "모평(평가원)": {
+        "2020년 고3 9월 모평(평가원) 수학가형": {
+            "url": "'/20200916/go3/matha_hsj_1ENAW372_1.pdf'",
+            "file": "matha_hsj_1ENAW372_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
+        },
+        "2020년 고3 9월 모평(평가원) 수학나형": {
+            "url": "'/20200916/go3/mathb_hsj_631VT8LO_1.pdf'",
+            "file": "mathb_hsj_631VT8LO_1.pdf'",
+            "file_ext": "pdf'",
+            "code": "1"
+        }
+    }
 }
