@@ -13,6 +13,9 @@ class MarkdownSyntax(Enum):
     Bold = ('b', '**{text}**')
     Italic = ('i', '*{text}*')
 
+    # Plain
+    Plain = ('p', '{text}')
+
 
 class BufferedFileWrapper(Protocol):
     def push(self) -> None:
@@ -31,6 +34,8 @@ class BufferedFileWrapper(Protocol):
 class Markdown:
     def __init__(self, fileName: str, override: bool = False) -> None:
         self._fileName = fileName
+        if not fileName.endswith('.md'):
+            self._fileName += '.md'
         self._buffer: str = ''
         self._doOverride: bool = override
 
@@ -65,7 +70,7 @@ class Markdown:
         self._buffer += text
 
     def write(self, syntax: MarkdownSyntax, text: str) -> None:
-        self._write(syntax.value[1].format(text))
+        self._write(syntax.value[1].format(text=text))
 
     def writeLine(self, syntax: MarkdownSyntax, text: str) -> None:
         """
@@ -73,7 +78,7 @@ class Markdown:
             syntax: # Markdown syntax to apply
             text (str) : a single line of text to write.
         """
-        self._write(syntax.value[1].format(text + '\n'))
+        self._write(syntax.value[1].format(text=text + '\n'))
 
     def close(self) -> None:
         self.push()
