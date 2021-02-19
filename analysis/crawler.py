@@ -29,76 +29,86 @@ driver.get('http://www.ebsi.co.kr/ebs/xip/xipc/previousPaperList.ebs')
 data = {}
 
 
-# 1 ~ n  페이지
-pages = 20
-ignored_exceptions = (NoSuchElementException, StaleElementReferenceException,)
-for num in range(1, pages+1):
-    print(f'Crawling page {num}\n')
-    # tbody 태그 가져오기
-    # tbody = driver.find_element_by_class_name('boardtest').find_element_by_tag_name('tbody')
-    tbody = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
-        .until(lambda driver: driver.find_element_by_class_name('boardtest').find_element_by_tag_name('tbody'))
-    # tr 태그 가져오기
-    # Prevent stale element reference.
-    # elements = tbody.find_elements_by_tag_name('tr')
-    elements: List[WebElement] = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
-        .until(lambda driver: driver.find_elements_by_tag_name('tr'))
-    for element in elements[1:]:
-        print(f'Parsing WebElement : {element.tag_name}, {element.location}')
+def downloadSingleYear(year: str, pages: int):
+    print(f'Crawling {year} tests...')
+    # Find year selector element
+    yearSelector = driver.find_element_by_xpath('/html/body/div/div[3]/div[3]/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[1]/dl[1]/dd[1]/span/select')
+    yearSelector.click()
+    tuple(filter(lambda e: e.get_attribute('value') == year, yearSelector.find_elements_by_tag_name('option')))[0].click()
+    for num in range(1, pages + 1):
+        print(f'Crawling page {num}\n')
+        # tbody 태그 가져오기
+        # tbody = driver.find_element_by_class_name('boardtest').find_element_by_tag_name('tbody')
+        tbody = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
+            .until(lambda driver: driver.find_element_by_class_name('boardtest').find_element_by_tag_name('tbody'))
+        # tr 태그 가져오기
+        # Prevent stale element reference.
+        # elements = tbody.find_elements_by_tag_name('tr')
+        elements: List[WebElement] = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
+            .until(lambda driver: driver.find_elements_by_tag_name('tr'))
+        for element in elements[1:]:
+            print(f'Parsing WebElement : {element.tag_name}, {element.location}')
 
-        # 시험 이름 가져와서 처리하기
-        tInfoTag: WebElement = element.find_element_by_class_name('t_info')
-        testTitleRaw: str = tInfoTag.find_element_by_tag_name('strong').text
-        testTitle: str = testTitleRaw.strip()
-        if testTitle.endswith('형'):
-            subjectName, subjectType = testTitle.split(' ')[-2:]
-        else:
-            subjectName = testTitle.split(' ')[-1]
-            subjectType = None
-        print(f'Crawling test : test={testTitle},subject={subjectName},type={subjectType}')
-        testData: dict = {
-            'title': testTitle,
-            'type': subjectType if subjectType is not None else '없음',
-            'download': {}
-        }
-
-        # 다운로드 링크 및 코드 가져오기
-        downTag: WebElement = element.find_element_by_class_name('down')
-        downloads: List[WebElement] = downTag.find_element_by_tag_name('span').find_elements_by_tag_name('a')
-        for download in downloads:
-            href = download.get_attribute('href')
-            print(f'{download.text} > href={href}')
-            # functionInfo = parseJSFunc(href)
-            # print(f'Parsed {download.text} href : {functionInfo}')
-            # testData['download'][download.text] = {
-            #     'url': functionInfo['arg'].split(',')[0],
-            #     'function_info': functionInfo
-            # }
-            testData['download'][download.text] = {
-                'href': href,
-                'comment': 'due to catastrophic backtracking issue, javascript function-call expression parsing with regexp temporarily stopped.'
+            # 시험 이름 가져와서 처리하기
+            tInfoTag: WebElement = element.find_element_by_class_name('t_info')
+            testTitleRaw: str = tInfoTag.find_element_by_tag_name('strong').text
+            testTitle: str = testTitleRaw.strip()
+            if testTitle.endswith('홀수형') or testTitle.endswith('짝수형'):
+                subjectName, subjectType = testTitle.split(' ')[-2:]
+            else:
+                subjectName = testTitle.split(' ')[-1]
+                subjectType = None
+            print(f'Crawling test : test={testTitle},subject={subjectName},type={subjectType}')
+            testData: dict = {
+                'title': testTitle,
+                'type': subjectType if subjectType is not None else '없음',
+                'download': {}
             }
 
-        try:
-            data[subjectName].append(testData)
-        except KeyError:
-            data[subjectName] = [testData]
-        print('-'*10)
-    print('='*10)
+            # 다운로드 링크 및 코드 가져오기
+            downTag: WebElement = element.find_element_by_class_name('down')
+            downloads: List[WebElement] = downTag.find_element_by_tag_name('span').find_elements_by_tag_name('a')
+            for download in downloads:
+                href = download.get_attribute('href')
+                print(f'{download.text} > href={href}')
+                # functionInfo = parseJSFunc(href)
+                # print(f'Parsed {download.text} href : {functionInfo}')
+                # testData['download'][download.text] = {
+                #     'url': functionInfo['arg'].split(',')[0],
+                #     'function_info': functionInfo
+                # }
+                testData['download'][download.text] = {
+                    'href': href,
+                    'comment': 'due to catastrophic backtracking issue, javascript function-call expression parsing with regexp temporarily stopped.'
+                }
 
-    # 다음 페이지 넘기기
-    if num != pages:    # 실행하는 마지막 페이지가 아닐 때
-        if pages % 10 == 0: # 10 배수
-            tuple(filter(
-                lambda e: e.get_attribute('onclick') == f'goPage({num+1});',
-                driver.find_element_by_class_name('mT15').find_elements_by_tag_name('a')
-            ))[0].click()
-        else:
-            tuple(filter(
-                lambda e: e.text == str(num+1),
-                driver.find_element_by_class_name('vA-1')
+            try:
+                data[subjectName].append(testData)
+            except KeyError:
+                data[subjectName] = [testData]
+            print('-' * 10)
+        print('=' * 10)
+
+        # 다음 페이지 넘기기
+        if num != pages:  # 실행하는 마지막 페이지가 아닐 때
+            if num % 10 == 0:  # 10 배수
+                tuple(filter(
+                    lambda e: e.get_attribute('onclick') == f'goPage({num + 1});',
+                    driver.find_element_by_class_name('mT15').find_elements_by_tag_name('a')
+                ))[0].click()
+            else:
+                tuple(filter(
+                    lambda e: e.text == str(num + 1),
+                    driver.find_element_by_class_name('vA-1')
                     .find_elements_by_tag_name('a')
-            ))[0].click()
+                ))[0].click()
+
+
+# 1 ~ n  페이지
+target = [('2020', 23), ('2019', 23)]
+ignored_exceptions = (NoSuchElementException, StaleElementReferenceException,)
+for year, pages in target:
+    downloadSingleYear(year, pages)
 
 with open('raw_data.json', mode='wt', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

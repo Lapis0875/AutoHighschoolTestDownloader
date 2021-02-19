@@ -1,4 +1,5 @@
-from .models import AsyncDownloader, JSON
+from .downloader import AsyncDownloader
+from .models import JSON
 
 
 def start_prompt() -> str:
